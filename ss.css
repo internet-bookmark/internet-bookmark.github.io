@@ -417,8 +417,23 @@ h3 {
     float: left;
     width: 25%;
     padding: 10px 10px;
+    
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Remove extra left and right margins, due to padding */
 .row {
@@ -431,6 +446,7 @@ h3 {
     content: "";
     display: table;
     clear: both;
+    background-color: #09f845;
 }
 
 img {
@@ -453,6 +469,43 @@ img {
     padding: 10px;
     text-align: center;
     background-color: #f1f1f1;
-}
+    transition: transform 0.5s ease;
+
+} 
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ============================================================================================= */
+/* ==================================================footer===================================== */
+
+.container {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #f4f4f4;
+}
+
+/* ==================================================footer===================================== */
